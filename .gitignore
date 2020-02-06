@@ -64,3 +64,4 @@ env.json
 lib/
 .expo/
 config.ts
+.idea/
