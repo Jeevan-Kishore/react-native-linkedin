@@ -1,4 +1,3 @@
-/// <reference types="ramda" />
 import React, { ReactNode } from 'react';
 import PropTypes from 'prop-types';
 import querystring from 'query-string';
@@ -51,7 +50,7 @@ export declare const getCodeAndStateFromUrl: (x: string) => import("ramda").Evol
 export declare const getErrorFromUrl: (x: string) => import("ramda").Evolve<querystring.ParsedQuery<string>, {
     error_description: (state: string) => string;
 }>;
-export declare const transformError: (...args: any[]) => ErrorType;
+export declare const transformError: (...args: readonly any[]) => ErrorType;
 export declare const isErrorUrl: (x: string) => boolean;
 export declare const injectedJavaScript = "\n  setTimeout(function() {\n    document.querySelector(\"input[type=text]\").setAttribute(\"autocapitalize\", \"off\");\n  }, 1);\n  true;\n";
 export declare const getAuthorizationUrl: ({ authState, clientID, permissions, redirectUri, }: Partial<Props>) => string;
@@ -106,7 +105,7 @@ export default class LinkedInModal extends React.Component<Props, State> {
     getAccessToken: (code: string) => Promise<any>;
     close: () => void;
     open: () => void;
-    logoutAsync: () => Promise<{}>;
+    logoutAsync: () => Promise<unknown>;
     renderButton: () => JSX.Element;
     renderClose: () => {} | null | undefined;
     renderWebview: () => JSX.Element | null;
