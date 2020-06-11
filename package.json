@@ -31,7 +31,7 @@
   "dependencies": {
     "query-string": "6.13.1",
     "ramda": "0.27.0",
-    "react-native-webview": "^10.2.3",
+    "react-native-webview": "10.1.1",
     "uuid": "8.1.0"
   },
   "devDependencies": {
