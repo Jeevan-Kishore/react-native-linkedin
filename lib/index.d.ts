@@ -59,7 +59,7 @@ export declare const getPayloadForToken: ({ clientID, clientSecret, code, redire
 }) => string;
 export declare const fetchToken: (payload: any) => Promise<any>;
 export declare const logError: (error: ErrorType) => void;
-export declare const onLoadStart: (url: string, authState: string, onSuccess: (result: LinkedInToken) => void, onError: (error: ErrorType) => void, close: any, getAccessToken: (token: string) => Promise<LinkedInToken>, shouldGetAccessToken?: boolean | undefined) => Promise<void>;
+export declare const onLoadStart: (url: string, authState: string, onSuccess: Props['onSuccess'], onError: Props['onError'], close: any, getAccessToken: (token: string) => Promise<LinkedInToken>, shouldGetAccessToken?: boolean | undefined) => Promise<void>;
 export default class LinkedInModal extends React.Component<Props, State> {
     static propTypes: {
         clientID: PropTypes.Validator<string>;

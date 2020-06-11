@@ -29,30 +29,30 @@
     "linkedin"
   ],
   "dependencies": {
-    "query-string": "6.11.1",
+    "query-string": "6.13.1",
     "ramda": "0.27.0",
-    "react-native-webview": "^9.0.1",
-    "uuid": "7.0.2"
+    "react-native-webview": "^10.2.3",
+    "uuid": "8.1.0"
   },
   "devDependencies": {
-    "@types/jest": "25.1.4",
-    "@types/react": "16.9.25",
-    "@types/react-native": "0.61.23",
-    "@types/uuid": "7.0.2",
-    "@types/ramda": "^0.27.0",
-    "babel-jest": "25.1.0",
+    "@types/jest": "26.0.0",
+    "@types/react": "16.9.36",
+    "@types/react-native": "0.62.13",
+    "@types/uuid": "8.0.0",
+    "@types/ramda": "^0.27.6",
+    "babel-jest": "26.0.1",
     "babel-preset-react-native": "^4.0.1",
-    "babel-preset-expo": "^8.0.0",
-    "expo": "^36.0.2",
-    "husky": "4.2.3",
+    "babel-preset-expo": "^8.2.1",
+    "expo": "^37.0.12",
+    "husky": "4.2.5",
     "json": "^9.0.6",
-    "jest-expo": "^36.0.1",
+    "jest-expo": "^37.0.0",
     "react": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
     "react-test-renderer": "16.13.1",
-    "tslint": "6.1.0",
+    "tslint": "6.1.2",
     "tslint-config-prettier": "1.18.0",
-    "typescript": "3.8.3"
+    "typescript": "3.9.5"
   },
   "peerDependencies": {
     "react": "*",
